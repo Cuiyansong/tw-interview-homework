@@ -7,6 +7,9 @@ namespace ConsoleApplication
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            var content = FileLoader.Load();
+            System.Console.WriteLine(content);
         }
     }
 }
