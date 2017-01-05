@@ -28,7 +28,7 @@ namespace conference_track_management.src
             "User Interface CSS in Rails Apps 30min";
 
             var tracks = content.Split(new string[]{ "\r\n"});
-            return new List() {tracks};
+            return new List(){tracks};
         }
     }
 }
