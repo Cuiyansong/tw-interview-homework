@@ -6,6 +6,8 @@ class Program
     {
         Console.WriteLine("Hello World!");
 
+        Console.WriteLine("Jenkins Test Message");
+
         Console.ReadKey();
     }
 }
