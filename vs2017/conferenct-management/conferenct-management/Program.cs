@@ -8,6 +8,8 @@ class Program
 
         Console.WriteLine("Jenkins Test Message");
 
+        Console.WriteLine("Jenkins Test Message - 2");
+         
         Console.ReadKey();
     }
 }
