@@ -1,0 +1,39 @@
+{
+  "name": "tw-taxi",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "test": "jest",
+    "tslint": "tslint -c tslint.json -p tsconfig.json",
+    "clean": "rm -rf dist/*"
+  },
+  "jest": {
+    "globals": {
+      "__TS_CONFIG__": "tsconfig.json"
+    },
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "./node_modules/ts-jest/preprocessor.js"
+    },
+    "testMatch": [
+      "**/dist/**/*.spec.(js)"
+    ],
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "taxi"
+  ],
+  "author": "Stephen Cui",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^20.0.8",
+    "jest": "^21.0.2",
+    "ts-jest": "^21.0.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  }
+}
