@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "badminton-venue", "badminton-venue\badminton-venue.csproj", "{3773AD4E-E13F-430F-9270-04417D16AFCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "badminton-venue.unittest", "badminton-venue.unittest\badminton-venue.unittest.csproj", "{0F6E853D-8887-4726-8315-8A6F9C71C50C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3773AD4E-E13F-430F-9270-04417D16AFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3773AD4E-E13F-430F-9270-04417D16AFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3773AD4E-E13F-430F-9270-04417D16AFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3773AD4E-E13F-430F-9270-04417D16AFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6E853D-8887-4726-8315-8A6F9C71C50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6E853D-8887-4726-8315-8A6F9C71C50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6E853D-8887-4726-8315-8A6F9C71C50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6E853D-8887-4726-8315-8A6F9C71C50C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
